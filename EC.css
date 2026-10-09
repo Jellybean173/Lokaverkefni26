@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+ul {
+    display: grid;
+    text-align: center;
+    border: 3px rgba(169, 169, 169, 0.416) solid;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    background-color: rgba(86, 12, 86, 0.796);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article{
+    border: 3px rgba(169, 169, 169, 0.416) solid;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(86, 12, 86, 0.796)
+}
+
+footer {
+    display: grid;
+    border: 3px rgba(169, 169, 169, 0.416) solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(86, 12, 86, 0.796)
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: rgba(200, 171, 4, 0.582);
+}
+
+h1 {
+    color: rgba(200, 171, 4, 0.582);
+}
