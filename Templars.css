@@ -1,7 +1,7 @@
 ul {
     display: grid;
     text-align: center;
-    border: 3px black solid;
+    border: 3px solid crimson;
     padding: 10px;
     margin: 10px;
     gap: 10px;
@@ -15,12 +15,30 @@ img {
 
 footer {
     display: grid;
-    border: 3px solid;
+    border: 3px solid crimson;
     margin: 10px;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 iframe {
     width: 100%;
     height: 100%;
+}
+
+article{
+    border: 3px solid crimson;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 960px) {
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
